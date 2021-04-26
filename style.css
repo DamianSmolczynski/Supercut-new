@@ -14,6 +14,7 @@ body{
     margin: 0;
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 header{
     width: 100%;
@@ -21,31 +22,39 @@ header{
     display: flex;
     flex-direction: row;
     background-color: black;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top: 0;
     
+}
+.instagram-logo{
+    width: 20px;
+    height: 20px;
+    float: left;
 }
 .logo{
     width: 128px;
     height: 50px;
-    margin: 10px auto 10px 10px;
 }
 .menu-button-wrapper{
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20px 10px 20px auto;
+    
     
 }
 
 .menu-button{
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
 
     display: flex;
 }
 
-.menu-wrapper{
+nav{
     display: none;
     
 }
