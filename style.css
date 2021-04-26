@@ -1,90 +1,70 @@
-@keyframes menuUnwrap {
-    from {display: none;}
-    to {display: flex;}
+@font-face {
+    font-family: "Agency FB";
+    src: url(./AgencyFB.TTF);
+}
+*{
+    font-family: "Agency FB";
 }
 
 
 body{
+    width: 100vw;
+    height:90vh;
     margin: 0;
-    width: 100%;
-    position: relative;
-}
-.wrapper{
-    width: 100%;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-}
-header{
-    width: 100%;
-    height: 70px;
-    display: flex;
-    flex-direction: row;
-    background-color: black;
-    justify-content: space-around;
-    align-items: center;
-    position: sticky;
-    top: 0;
-    
-}
-.instagram-logo{
-    width: 20px;
-    height: 20px;
-    float: left;
-}
-.logo{
-    width: 128px;
-    height: 50px;
-}
-.menu-button-wrapper{
-    width: 20px;
-    height: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    
+    background-color: black;
 }
-
-.menu-button{
-    width: 20px;
-    height: 20px;
-
-    display: flex;
+button{
+    width: 220px;
+    height: 33px;
+    font-size: 17px;
+    border-radius: 25px;
+    background-color: white;
 }
-
-nav{
-    display: none;
-    
-}
-
-
-ul{
-    width: 100%;
+.wrapper{
+    border: 1px white solid;
+    width: 83%;
+    height: 96%;
     display: flex;
     flex-direction: column;
-    margin: 0;
-    padding: 0;
 }
-li{
-    width: 100%;
-    height: 50px;
-    text-align: center;
-    background-color: white;
+.menu{
+    width: 33px;
+    height: 33px;
+    margin: 14px auto 0 18px;
+}
+.menu-image{
+    width: inherit;
+    height: inherit;
+}
+.logo-section{
+    width: 266px;
+    height: 107px;
     display: flex;
-    justify-content: space-around;
+    margin: 50px auto 0 auto;
+}
+.logo-section-image{
+    width: inherit;
+    height: inherit;
+}
+.welcome-section{
+    width: 91%;
+    height: 168px;
+    border: 1px white solid;
     align-items: center;
-    border: 1px solid black;
-    border-collapse: collapse;
+    justify-content: center;
+    color: white;
+    font-size: 11px;
+    font-family: "Agency FB";
+    text-align: center;
+    display: flex;
+    margin: 50px auto auto auto;
 }
-li a{
-    display: block;
-    text-decoration: none;
-    color: black;
-    font-size: large;
+.welcome-section h1{
+    margin: auto;
 }
-li:last-child{
-    border-bottom: 2px black solid;
-
+#welcome-section-book-now{
+    margin: 40px auto auto auto;
 }
