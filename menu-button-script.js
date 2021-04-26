@@ -3,7 +3,7 @@ let timesClicked = 0;
 document.querySelector(".menu-button").addEventListener("click", () => {
     if(timesClicked == 0)
     {
-        document.querySelector(".menu-wrapper").animate("menuUnwrap");
+        document.querySelector(".menu-wrapper").style.display ="flex";
         timesClicked++;
     }
     else
