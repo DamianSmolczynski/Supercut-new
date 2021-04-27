@@ -1,9 +1,9 @@
-*{
-    padding: 0px;
-    margin:0px;
-    box-sizing: border-box;
+.welcome-section{
+    display: none;
 }
-
+#welcome-section-book-now{
+    display: none;
+}
 .carousel-container{
     width: 265px;
     height: 287px;

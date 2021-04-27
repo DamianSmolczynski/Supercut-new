@@ -1,33 +1,26 @@
-*{
-    padding: 0px;
-    margin:0px;
-    box-sizing: border-box;
+.welcome-section{
+    display: none;
 }
-
+#welcome-section-book-now{
+    display: none;
+}
 .carousel-container{
-    width: 265px;
-    height: 287px;
+    width: 263px;
+    height: 263px;
     margin: auto;
     overflow: hidden;
     position: relative;
-    
+    border: 3px solid white;
     
 }
 .carousel-slide{
     display: flex;
     width: 100%;
-    height: 287px;
-    
+    height: 263px;
 }
 img{
-    width: 265px;
-    height: 287px;
-}
-.carousel-slide-element{
-    min-width: 265px;
-    min-height: 287px;
-    width: 265px;
-    height: 265px;
+    width: 263px;
+    height: 263px;
 }
 
 #prevBtn{
@@ -36,7 +29,7 @@ img{
     left: 0;
     z-index: 10;
     font-size:20px;
-    opacity: 0.5;
+    opacity: 0.9;
     color: white;
     cursor: pointer;
 }
@@ -46,7 +39,7 @@ img{
     right: 0;
     z-index: 10;
     font-size:20px;
-    opacity: 0.5;
+    opacity: 0.9;
     color: white;
     cursor: pointer;
 }
