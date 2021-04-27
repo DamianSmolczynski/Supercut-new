@@ -1,10 +1,10 @@
 const carouselSlide = document.querySelector(".carousel-slide");
-const carouselImages = document.querySelectorAll(".carousel-slide img");
+const carouselImages = document.querySelectorAll(".carousel-slide-element");
 
 //Buttons
 const prevBtn = document.querySelector("#prevBtn");
 const nextBtn = document.querySelector("#nextBtn");
-window.onload = ()=>{
+window.onload = ()=>{//without it carousel is buggy :(
 //Counter
 let counter = 1;
 const size = carouselImages[0].clientWidth;
