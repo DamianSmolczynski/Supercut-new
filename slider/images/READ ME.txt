@@ -1,0 +1,2 @@
+1. Slider can be used for divs as well. The only issue is that if we won't set min-width and min-height divs will assume that they have to fit wrapping container.
+2. To prevent loading bugs, we should take code into window.onload() method.
