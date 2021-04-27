@@ -4,7 +4,7 @@ const carouselImages = document.querySelectorAll(".carousel-slide img");
 //Buttons
 const prevBtn = document.querySelector("#prevBtn");
 const nextBtn = document.querySelector("#nextBtn");
-
+window.onload = ()=>{//without it carousel is buggy :(
 //Counter
 let counter = 1;
 const size = carouselImages[0].clientWidth;
@@ -36,3 +36,4 @@ carouselSlide.addEventListener('transitionend', ()=>{
             counter = carouselImages.length - counter;
             carouselSlide.style.transform = 'translateX(' + (-size * counter) + 'px)';
 }});
+}
