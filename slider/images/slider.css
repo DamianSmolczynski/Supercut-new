@@ -5,7 +5,7 @@
 }
 
 .carousel-container{
-    width: 263px;
+    width: 265px;
     height: 287px;
     margin: auto;
     overflow: hidden;
@@ -22,6 +22,12 @@
 img{
     width: 265px;
     height: 287px;
+}
+.carousel-slide-element{
+    min-width: 265px;
+    min-height: 287px;
+    width: 265px;
+    height: 265px;
 }
 
 #prevBtn{
