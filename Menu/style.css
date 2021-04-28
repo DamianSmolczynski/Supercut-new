@@ -99,3 +99,52 @@ button a{
     line-height: 100%;
     line-height: 33px;
 }
+
+/*iphone <=7 media query fix*/
+@media screen and (max-width:330px){
+    .logo-section{
+        width: 220px;
+        height: 88px;
+        display: flex;
+        margin: 50px auto 0 auto;
+    }
+    .logo-section-image{
+        width: inherit;
+        height: inherit;
+    }
+    .wrapper{
+    border: 1px white solid;
+    border-radius: 10px;
+    width: 83%;
+    height: 90%;
+    min-height: 500px;
+    margin: 20px 0 20px 0;
+    }
+    body{
+        height: auto;
+    }
+}
+@media screen and (max-height:667px){
+    .logo-section{
+        width: 220px;
+        height: 88px;
+        display: flex;
+        margin: 50px auto 0 auto;
+    }
+    .logo-section-image{
+        width: inherit;
+        height: inherit;
+    }
+    .wrapper{
+    border: 1px white solid;
+    border-radius: 10px;
+    width: 83%;
+    height: 90%;
+    min-height: 500px;
+    margin: 20px 0 20px 0;
+    }
+    body{
+        height: auto;
+    }
+}
+/*iphone <=7 media query fix*/
