@@ -9,13 +9,22 @@
 
 body{
     width: 100vw;
-    height:90vh;
+    height:100%;
     margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: black;
+    
+    
+    position: relative;
+}
+.fixed-background{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
     background-image: url(./imgAboutUs2.png);
+    
 }
 button{
     width: 220px;
@@ -34,7 +43,7 @@ button{
     position: fixed;
     top: 0;
     background-color: black;
-    opacity: 0.5;
+    opacity: 0.7;
     z-index: 1;
     
 }
@@ -46,6 +55,8 @@ button{
     display: flex;
     flex-direction: column;
     z-index: 2;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .menu{
     width: 33px;
@@ -76,24 +87,44 @@ button{
     display: flex;
     flex-direction: column;
     position: relative;
-}
-.welcome-section{
-    width: 91%;
-    height: 168px;
-    border: 1px white solid;
-    border-radius: 10px;
-    align-items: center;
-    justify-content: center;
     color: white;
-    font-size: 11px;
-    font-family: "Agency FB";
     text-align: center;
-    display: flex;
-    margin: auto auto auto auto;
-    display: flex;
+    margin-top: auto;
+    
 }
-.welcome-section h1{
-    margin: auto;
+.content h1{
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 30px;
+    margin: 20px 20px 20px 20px;
+}
+.content h2{
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 30px;
+    margin: 20px 20px 20px 20px;
+}
+.content h3{
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 30px;
+    margin: 20px 20px 20px 20px;
+}
+.content h4{
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 30px;
+    margin: 20px 20px 20px 20px;
+}
+video{
+    width: 90%;
+    height: auto;
+    margin:0px auto 0px auto;
+}
+#lastImg{
+    width: 265px;
+    height: 265px;
+    margin: 0px auto 0px auto;
 }
 #welcome-section-book-now{
     margin: 40px auto auto auto;

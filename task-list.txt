@@ -1,0 +1,12 @@
+1. Put div carousel in social media
+2. Create contact page
+3. Create about us
+4. Decide if menu should be seperate page or script
+5. Create design for desktop version
+6. Make styles for all desktop versions of pages:
+-first
+-gallery
+-social media
+-contact us 
+-about us
+7. create animations for all pages

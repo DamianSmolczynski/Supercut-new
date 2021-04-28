@@ -27,6 +27,9 @@ button{
     margin-left: auto;
     margin-right: auto;
     z-index: 2;
+    font-weight: bold;
+    border: none;
+    box-shadow: 0px 0px 26px -8px black;
 }
 .background-mask{
     width: 100%;
@@ -77,33 +80,22 @@ button{
     flex-direction: column;
     position: relative;
 }
-.welcome-section{
-    width: 91%;
-    height: 168px;
-    border: 1px white solid;
-    border-radius: 10px;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    font-size: 11px;
-    font-family: "Agency FB";
-    text-align: center;
-    display: flex;
-    margin: auto auto auto auto;
-    display: flex;
-}
-.welcome-section h1{
-    margin: auto;
-}
-#welcome-section-book-now{
-    margin: 40px auto auto auto;
-    display: block;
-}
+
 .page-selectors{
     width: 100%;
     height: 100%;
-    display: none;
+    display: flex;
     flex-direction: column;
     justify-content:center;
     align-content: center;
+}
+
+button a{
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    height: 100%;
+    display: block;
+    line-height: 100%;
+    line-height: 33px;
 }
