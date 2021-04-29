@@ -106,7 +106,7 @@ button a{
         width: 220px;
         height: 88px;
         display: flex;
-        margin: 50px auto 0 auto;
+        margin: 50px auto auto auto;
     }
     .logo-section-image{
         width: inherit;
@@ -129,7 +129,7 @@ button a{
         width: 220px;
         height: 88px;
         display: flex;
-        margin: 50px auto 0 auto;
+        margin: 50px auto auto auto;
     }
     .logo-section-image{
         width: inherit;
