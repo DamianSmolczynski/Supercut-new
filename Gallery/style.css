@@ -162,3 +162,8 @@ button{
         height: auto;
     }
 }
+@media screen and (min-width:768px) {
+    .fixed-background{
+        display: none;
+}
+}

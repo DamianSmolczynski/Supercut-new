@@ -156,3 +156,8 @@ button a{
     }
 }
 /*iphone <=7 media query fix*/
+@media screen and (min-width:768px) {
+    .fixed-background{
+        display: none;
+}
+}
