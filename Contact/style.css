@@ -15,7 +15,16 @@ body{
     justify-content: center;
     align-items: center;
     background-color: black;
+    position: relative;
+
+}
+.fixed-background{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
     background-image: url(./imgAboutUs2.png);
+    
 }
 button{
     width: 220px;
