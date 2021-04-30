@@ -15,7 +15,15 @@ body{
     justify-content: center;
     align-items: center;
     background-color: black;
+    position: relative;
+}
+.fixed-background{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
     background-image: url(./imgAboutUs2.png);
+    
 }
 button{
     width: 220px;
@@ -106,4 +114,51 @@ button{
     flex-direction: column;
     justify-content:center;
     align-content: center;
+}
+
+@media screen and (max-width:330px){
+    .logo-section{
+        width: 220px;
+        height: 88px;
+        display: flex;
+        margin: 50px auto 0 auto;
+    }
+    .logo-section-image{
+        width: inherit;
+        height: inherit;
+    }
+    .wrapper{
+    border: 1px white solid;
+    border-radius: 10px;
+    width: 83%;
+    height: 90%;
+    min-height: 500px;
+    margin: 20px 0 20px 0;
+    }
+    body{
+        height: auto;
+    }
+}
+@media screen and (max-height:667px){
+    .logo-section{
+        width: 220px;
+        height: 88px;
+        display: flex;
+        margin: 50px auto 0 auto;
+    }
+    .logo-section-image{
+        width: inherit;
+        height: inherit;
+    }
+    .wrapper{
+    border: 1px white solid;
+    border-radius: 10px;
+    width: 83%;
+    height: 90%;
+    min-height: 500px;
+    margin: 20px 0 20px 0;
+    }
+    body{
+        height: auto;
+    }
 }

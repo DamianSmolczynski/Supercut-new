@@ -50,3 +50,24 @@ img{
     color: white;
     cursor: pointer;
 }
+/*iphone <=7 media query fix*/
+@media screen and (max-width:330px){
+    .carousel-container{
+        width: 220px;
+        height: 237px;
+    }
+    .carousel-slide{
+        height: 287px;
+    }
+    img{
+        width: 220px;
+        height: 237px;
+    }
+    .carousel-slide-element{
+        min-width: 220px;
+        min-height: 237px;
+        width: 220px;
+        height: 237px;
+    }
+}
+/*iphone <=7 media query fix*/

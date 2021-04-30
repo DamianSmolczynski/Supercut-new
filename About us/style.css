@@ -14,8 +14,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    
+    background-color: black;
     position: relative;
 }
 .fixed-background{
@@ -138,3 +137,41 @@ video{
     justify-content:center;
     align-content: center;
 }
+
+/*iphone <=7 media query fix*/
+@media screen and (max-width:330px){
+    .logo-section{
+        width: 220px;
+        height: 88px;
+        display: flex;
+        margin: 50px auto 0 auto;
+    }
+    .logo-section-image{
+        width: inherit;
+        height: inherit;
+    }
+    #lastImg{
+        width: 220px;
+        height: 237px;
+    }
+
+}
+@media screen and (max-height:667px){
+    .logo-section{
+        width: 220px;
+        height: 88px;
+        display: flex;
+        margin: 50px auto 0 auto;
+    }
+    .logo-section-image{
+        width: inherit;
+        height: inherit;
+    }
+    #lastImg{
+        min-width: 220px;
+        min-height: 237px;
+    }
+
+    
+}
+/*iphone <=7 media query fix*/
