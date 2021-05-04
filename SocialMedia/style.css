@@ -103,6 +103,9 @@ button{
     height: 33px;
     margin: 14px auto 0 18px;
 }
+.menu:active{
+    transform: translateY(6px);
+}
 .menu a{
     width: 100%;
     height: 100%;
