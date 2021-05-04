@@ -9,4 +9,6 @@
 -social media
 -contact us 
 -about us
-7. create animations for all pages
+7.Design a background for desktop version
+8. create animations for all pages
+
