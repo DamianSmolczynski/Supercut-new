@@ -15,7 +15,7 @@
           opacity: 1;
     }
     to{
-        opacity: 0.7;
+        opacity: 0.5;
     }
     
 }
@@ -47,7 +47,7 @@ body{
     height: 100vh;
     position: fixed;
     top: 0;
-    background-image: url(./imgAboutUs2.png);
+    background-image: url(./imgAboutUs2.jpg);
     
 }
 .desktop-background{
@@ -96,7 +96,7 @@ button:active {
     background-color: black;
     opacity: 0.5;
     z-index: 1;
-    animation: welcome 7s linear;
+    animation: welcome 5s linear;
     
 }
 .wrapper{
