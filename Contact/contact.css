@@ -96,7 +96,7 @@ h2{
 /*iphone <=7 media query fix*/
 @media screen and (min-width:768px){
     .carousel-container{
-        width: 420px;
+        width: 700px;
         height: 453px;
     }
     .carousel-slide{
@@ -107,9 +107,9 @@ h2{
         height: 453px;
     }
     .carousel-slide-element{
-        min-width: 420px;
+        min-width: 700px;
         min-height: 453px;
-        width: 420px;
+        width: 700px;
         height: 453px;
     }
     .carousel-slide-element a{

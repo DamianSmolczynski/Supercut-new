@@ -2,6 +2,14 @@
     font-family: "Agency FB";
     src: url(./AgencyFB.TTF);
 }
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
 *{
     font-family: "Agency FB";
 }
@@ -24,6 +32,22 @@ body{
     position: fixed;
     top: 0;
     background-image: url(./imgAboutUs2.png);
+    
+}
+.desktop-background{
+    position: fixed;
+    z-index: -4;
+    width: 1200px;
+    height: 96%;
+    overflow: hidden;
+    display: none;
+}
+.desktop-background img{
+    width: 1200px;
+    height: 1200px;
+    animation: rotation 8s infinite linear;
+    position: absolute;
+    top: -50px;
     
 }
 button{
@@ -55,6 +79,7 @@ button{
     display: flex;
     flex-direction: column;
     z-index: 2;
+    overflow: hidden;
 }
 .menu{
     width: 33px;
@@ -167,6 +192,9 @@ button{
 @media screen and (min-width:768px) {
     .fixed-background{
         display: none;
+}
+.desktop-background{
+    display: block;
 }
 .wrapper{
     width: 96%;
