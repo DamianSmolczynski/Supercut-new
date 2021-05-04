@@ -45,7 +45,6 @@ iframe{
     color: white;
     font-weight: bold;
     text-align: center;
-    
 }
 h1{
     font-size: 30px;
@@ -95,3 +94,47 @@ h2{
     }
 }
 /*iphone <=7 media query fix*/
+@media screen and (min-width:768px){
+    .carousel-container{
+        width: 700px;
+        height: 453px;
+    }
+    .carousel-slide{
+        height: 453px;
+    }
+    img{
+        width: 420px;
+        height: 453px;
+    }
+    .carousel-slide-element{
+        min-width: 700px;
+        min-height: 453px;
+        width: 700px;
+        height: 453px;
+    }
+    .carousel-slide-element a{
+        width: 100%;
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    h1,h2{
+        font-size: 50px;
+    }
+    iframe{
+        width: 85%;
+        height: 453px;
+        border: 0;
+        margin: auto;
+        
+        
+    }
+    #prevBtn,#nextBtn{
+        color: white; 
+    }
+}
+  
