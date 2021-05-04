@@ -179,4 +179,33 @@ video{
     .fixed-background{
         display: none;
 }
+.wrapper{
+    width: 96%;
+}
+.logo-section{
+    width: 372px;
+    height: 150px;
+    display: flex;
+    margin: 10px auto 0 auto;
+    
+}
+.logo-section-image{
+    width: inherit;
+    height: inherit;
+}
+button{
+    width: 333px;
+}
+video{
+    width: 70%;
+}
+#lastImg{
+    width: 420px;
+    height: 420px;
+}
+.content h1,.content h2,.content h3,.content h4{
+    width: 40%;
+    margin: 20px auto 20px auto;
+}
+
 }

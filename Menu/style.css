@@ -9,7 +9,7 @@
 
 body{
     width: 100vw;
-    height:90vh;
+    height:100vh;
     margin: 0;
     display: flex;
     justify-content: center;
@@ -87,6 +87,8 @@ button{
     display: flex;
     flex-direction: column;
     position: relative;
+    justify-content: center;
+    align-items: center;
 }
 
 .page-selectors{
@@ -160,4 +162,28 @@ button a{
     .fixed-background{
         display: none;
 }
+    .wrapper{
+        width: 96%;
+    }
+    
+    .page-selectors{
+        height: auto;
+    }
+
+    .logo-section{
+        width: 372px;
+        height: 150px;
+        display: flex;
+        margin: 10px auto 0 auto;
+        
+    }
+    .logo-section-image{
+        width: inherit;
+        height: inherit;
+    }
+    button{
+        width: 333px;
+    }
+
+
 }

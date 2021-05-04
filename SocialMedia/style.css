@@ -9,13 +9,21 @@
 
 body{
     width: 100vw;
-    height:90vh;
+    height:100vh;
     margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: black;
+    position: relative;
+}
+.fixed-background{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
     background-image: url(./imgAboutUs2.png);
+    
 }
 button{
     width: 220px;
@@ -159,4 +167,22 @@ button{
     .fixed-background{
         display: none;
 }
+.wrapper{
+    width: 96%;
+}
+.logo-section{
+    width: 372px;
+    height: 150px;
+    display: flex;
+    margin: 10px auto 0 auto;
+    
+}
+.logo-section-image{
+    width: inherit;
+    height: inherit;
+}
+button{
+    width: 333px;
+}
+
 }

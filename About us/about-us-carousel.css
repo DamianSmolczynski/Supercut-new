@@ -66,3 +66,24 @@ img{
     }
 }
 /*iphone <=7 media query fix*/
+@media screen and (min-width:768px){
+    .carousel-container{
+        width: 420px;
+        height: 453px;
+        
+        border-radius: 5%;
+    }
+    .carousel-slide{
+        height: 453px;
+    }
+    img{
+        width: 420px;
+        height: 453px;
+    }
+    .carousel-slide-element{
+        min-width: 420px;
+        min-height: 453px;
+        width: 420px;
+        height: 453px;
+    }
+}
